@@ -9,16 +9,16 @@ int numberA = Convert.ToInt32(a);
 Console.WriteLine("Enter the second number: ");
 string b = Console.ReadLine();
 int numberB = Convert.ToInt32(b);
-if (numberA == numberB) 
+if (numberA == numberB)
 {
     Console.WriteLine("numbers are seam");
     return;
 }
 if (numberA > numberB)
 {
-    Console.WriteLine(numberA+"(max) "+numberB+"(min)");
+    Console.WriteLine(numberA + "(max) " + numberB + "(min)");
 }
 else
 {
-    Console.WriteLine(numberB+"(max) "+numberA+"(min)");
+    Console.WriteLine(numberB + "(max) " + numberA + "(min)");
 }

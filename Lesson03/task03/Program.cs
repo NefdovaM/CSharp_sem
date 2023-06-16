@@ -15,4 +15,4 @@ double powX = Math.Pow(x1 - x2, 2);
 double powY = Math.Pow(y1 - y2, 2);
 double result = Math.Sqrt(powX + powY);
 
-Console.WriteLine(result);
+Console.WriteLine(result.ToString("0.##"));
