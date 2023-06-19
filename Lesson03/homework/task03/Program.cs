@@ -2,3 +2,11 @@
 3 -> 1, 4, 9. 
 5 -> 1, 8, 27, 64, 125*/
 
+
+
+Console.WriteLine("Введите число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+
+for (int i = 1; i <= n;i=i+1) {
+    Console.Write(Math.Pow(i,3)+", ");
+}
