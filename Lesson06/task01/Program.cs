@@ -22,7 +22,10 @@ void reversArray(int[] sourceArray)
     }
 }
 
-int[] myArray = getRandomArray(5, -9, 10);
+const int length = 5;
+const int leftRandomBorder = -9;
+const int rightRandomBorder = 10;
+int[] myArray = getRandomArray(length, leftRandomBorder, rightRandomBorder);
 Console.WriteLine(string.Join(", ", myArray));
 reversArray(myArray);
 Console.WriteLine(string.Join(", ", myArray));
