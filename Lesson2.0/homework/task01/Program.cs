@@ -3,3 +3,9 @@
 782 -> 8
 918 -> 1*/
 
+Console.WriteLine("Введите любое трехзначное число: ");
+int x = Convert.ToInt32(Console.ReadLine());
+int x1 = x % 10;
+int x2 = (x % 100 - x1) / 10;
+int x3 = (x % 1000 - x2) / 100;
+Console.WriteLine(x2);
