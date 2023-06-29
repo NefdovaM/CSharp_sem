@@ -14,9 +14,9 @@ int numberB = Convert.ToInt32(b);
 
 if (numberA * numberA == numberB || numberB * numberB == numberA)
 {
-    Console.WriteLine ("да");
+    Console.WriteLine("да");
 }
 else
 {
-    Console.WriteLine ("нет");
+    Console.WriteLine("нет");
 }
