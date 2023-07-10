@@ -8,6 +8,7 @@
 5 2 6 7
 Программа считает сумму элементов в каждой строке и выдаёт номер строки с наименьшей суммой элементов: 1 строка*/
 
+
 const int rows = 4;
 const int columns = 4;
 int[,] GetRandomMatrix(int rows, int columns)
